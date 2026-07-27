@@ -1,36 +1,435 @@
-<section class="course-section">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Traders Paradise</title>
 
-<div class="profile">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<img src="images/abhay-patil.jpg" alt="Abhay Patil">
+<style>
 
-<h2>Master Trader Course</h2>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
-<p>
-Learn trading through educational market analysis,
-price action concepts and disciplined risk management.
-</p>
+body{
 
-<ul>
+background:#0f0f0f;
+color:#fff;
 
-<li>✔ Stock Market Basics</li>
+}
 
-<li>✔ Price Action</li>
+header{
 
-<li>✔ Risk Management</li>
+width:90%;
+max-width:1200px;
 
-<li>✔ Trading Psychology</li>
+margin:20px auto;
 
-<li>✔ Community Support</li>
+display:flex;
+justify-content:space-between;
+align-items:center;
 
-</ul>
+padding:15px 25px;
 
-<a href="YOUR_TELEGRAM_LINK" class="join-btn">
+background:#181818;
 
-Join Free Telegram
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:60px;
+
+}
+
+.logo{
+
+display:flex;
+align-items:center;
+gap:12px;
+
+}
+
+.logo img{
+
+width:45px;
+height:45px;
+border-radius:8px;
+
+}
+
+.logo h2{
+
+font-size:22px;
+
+}
+
+.telegram-top{
+
+background:#FFC857;
+
+padding:12px 28px;
+
+border-radius:40px;
+
+color:#111;
+
+text-decoration:none;
+
+font-weight:600;
+
+}
+
+.hero{
+
+width:90%;
+max-width:1200px;
+
+margin:auto;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+padding:70px 0;
+
+gap:40px;
+
+flex-wrap:wrap;
+
+}
+
+.left{
+
+flex:1;
+
+min-width:300px;
+
+}
+
+.left h1{
+
+font-size:62px;
+
+line-height:1.1;
+
+color:#FFC857;
+
+margin-bottom:25px;
+
+}
+
+.left p{
+
+font-size:20px;
+
+line-height:34px;
+
+color:#cfcfcf;
+
+margin-bottom:35px;
+
+}
+
+.telegram-btn{
+
+display:inline-block;
+
+padding:18px 40px;
+
+background:#FFC857;
+
+color:#111;
+
+text-decoration:none;
+
+font-size:18px;
+
+font-weight:600;
+
+border-radius:50px;
+
+box-shadow:0 0 35px rgba(255,200,87,.35);
+
+transition:.3s;
+
+}
+
+.telegram-btn:hover{
+
+transform:translateY(-4px);
+
+}
+
+.disclaimer{
+
+margin-top:35px;
+
+font-size:14px;
+
+line-height:28px;
+
+color:#9f9f9f;
+
+background:#1a1a1a;
+
+padding:18px;
+
+border-left:4px solid #FFC857;
+
+border-radius:10px;
+
+}
+
+.right{
+
+flex:1;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.right img{
+
+max-width:420px;
+
+width:100%;
+
+}
+
+.features{
+
+width:90%;
+
+max-width:1200px;
+
+margin:20px auto 70px;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+}
+
+.card{
+
+background:#181818;
+
+padding:30px;
+
+border-radius:18px;
+
+border:1px solid rgba(255,255,255,.06);
+
+}
+
+.card h3{
+
+color:#FFC857;
+
+margin-bottom:15px;
+
+}
+
+.card p{
+
+color:#bdbdbd;
+
+line-height:28px;
+
+}
+
+footer{
+
+margin-top:60px;
+
+padding:40px 20px;
+
+background:#151515;
+
+text-align:center;
+
+}
+
+footer p{
+
+color:#aaa;
+
+margin-bottom:15px;
+
+}
+
+footer a{
+
+color:#FFC857;
+
+text-decoration:none;
+
+margin:0 12px;
+
+}
+
+@media(max-width:768px){
+
+header{
+
+padding:12px 18px;
+
+}
+
+.logo h2{
+
+font-size:18px;
+
+}
+
+.telegram-top{
+
+display:none;
+
+}
+
+.hero{
+
+text-align:center;
+
+padding:40px 0;
+
+}
+
+.left h1{
+
+font-size:42px;
+
+}
+
+.left p{
+
+font-size:17px;
+
+line-height:30px;
+
+}
+
+.right img{
+
+max-width:320px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<img src="logo.png">
+
+<h2>Traders Paradise</h2>
+
+</div>
+
+<a href="https://t.me/YourTelegramUsername" class="telegram-top" target="_blank">
+
+Telegram
 
 </a>
+
+</header>
+
+<section class="hero">
+
+<div class="left">
+
+<h1>Welcome To Traders Paradise</h1>
+
+<p>
+Learn trading through educational content, market insights and a supportive community. Improve your understanding of financial markets with structured learning resources.
+</p>
+
+<a href="https://t.me/YourTelegramUsername" class="telegram-btn" target="_blank">
+🚀 Join Our Telegram
+</a>
+
+<div class="disclaimer">
+
+<strong>Risk Disclaimer:</strong><br><br>
+
+Trading in financial markets involves significant risk and may not be suitable for every individual. Educational content provided on this website is for informational purposes only and should not be considered financial, investment, or trading advice. Past performance does not guarantee future results. Please conduct your own research and consult a qualified financial advisor before making any investment decisions.
+
+</div>
+
+</div>
+
+<div class="right">
+
+<img src="hero.png">
 
 </div>
 
 </section>
+
+<section class="features">
+
+<div class="card">
+
+<h3>Market Education</h3>
+
+<p>
+Structured learning resources designed to help you understand trading concepts and market behaviour.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Community Support</h3>
+
+<p>
+Join an active trading community where members discuss market ideas and educational topics.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Regular Market Updates</h3>
+
+<p>
+Receive educational market updates and analysis to help improve your understanding of financial markets.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2025 Traders Paradise. All Rights Reserved.
+</p>
+
+<a href="#">Privacy Policy</a>
+
+<a href="#">Terms & Conditions</a>
+
+<a href="#">Disclaimer</a>
+
+</footer>
+
+</body>
+</html>
