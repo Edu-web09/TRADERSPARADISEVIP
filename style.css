@@ -1,0 +1,74 @@
+body{
+background:#090d15;
+font-family:Poppins,sans-serif;
+}
+
+.course-section{
+display:flex;
+justify-content:center;
+padding:80px 20px;
+}
+
+.profile{
+
+width:420px;
+
+padding:40px;
+
+border-radius:25px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.15);
+
+text-align:center;
+
+box-shadow:0 0 35px rgba(212,175,55,.18);
+
+}
+
+.profile img{
+
+width:150px;
+
+height:150px;
+
+border-radius:50%;
+
+border:5px solid #D4AF37;
+
+margin-bottom:20px;
+
+object-fit:cover;
+
+}
+
+.join-btn{
+
+display:inline-block;
+
+padding:15px 35px;
+
+background:#D4AF37;
+
+color:#111;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.join-btn:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 0 25px #D4AF37;
+
+}
